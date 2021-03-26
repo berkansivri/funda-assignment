@@ -5,8 +5,8 @@
       :to="'/property/' + property.Id"
     >
       <img
-        :src="property.FotoMedium"
-        class="flex-none w-full h-full rounded-md object-cover"
+        :src="property.FotoLarge"
+        class="flex-none w-full sm:w-64 h-full rounded-md object-cover"
       />
     </router-link>
     <div class="flex-auto text-base font-medium mt-2">
